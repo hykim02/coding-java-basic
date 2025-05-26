@@ -9,7 +9,7 @@ public class maxInArray {
         for(int i = 0; i < 5; i++) {
             arr[i] = sc.nextInt();
             if (arr[i] > max) {
-                max = arr[i]
+                max = arr[i];
             }
         }
         System.out.println(max);
