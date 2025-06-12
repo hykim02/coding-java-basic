@@ -19,5 +19,7 @@ public class PalindromeCheck {
         } else {
             System.out.println("NO");
         }
+
+        sc.close();
     }
 }

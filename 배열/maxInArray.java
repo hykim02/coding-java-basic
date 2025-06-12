@@ -6,12 +6,13 @@ public class maxInArray {
         int[] arr = new int[5];
         int max = Integer.MIN_VALUE;
 
-        for(int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++) {
             arr[i] = sc.nextInt();
             if (arr[i] > max) {
                 max = arr[i];
             }
         }
+
         System.out.println(max);
         sc.close();
     }
